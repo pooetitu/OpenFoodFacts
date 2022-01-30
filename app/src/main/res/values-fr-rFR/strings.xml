@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon comparateur</string>
+    <string name="barcode">Code barres : %1$s</string>
+    <string name="quantity">Quantité : %1$s</string>
+    <string name="ingredients">Ingrédients : %1$s</string>
+    <string name="sold_in">Vendu en : %1$s</string>
+    <string name="allergens">Substances allergènes : %1$s</string>
+    <string name="additives">Additifs : %1$s</string>
+    <string name="nutrional_benchmark_for_100g">Repères nutrionnels pour 100g</string>
+    <string name="high_nutrient_level">Quantité élevée</string>
+    <string name="low_nutrient_level">Quantité faible</string>
+    <string name="moderate_nutrient_level">Quantité modérée</string>
+    <string name="amount_of_fat">%1$.3f%2$s de matières grasses / lipides</string>
+    <string name="amount_of_saturated_fat">%1$.3f%2$s d\'acides gras saturés</string>
+    <string name="amount_of_sugar">%1$.3f%2$s de sucres</string>
+    <string name="amount_of_salt">%1$.3f%2$s de sel</string>
+    <string name="per_100_gram">Pour 100g</string>
+    <string name="per_portion">Par part</string>
+    <string name="energy">Energie</string>
+    <string name="fat">Matières grasses</string>
+    <string name="saturated_fat">dont acides gras saturés</string>
+    <string name="carbohydrate">Glucides</string>
+    <string name="sugar">dont sucre</string>
+    <string name="fibers">Fibres</string>
+    <string name="proteins">Protéines</string>
+    <string name="salt">Sel</string>
+    <string name="sodium">Sodium</string>
+    <string name="no_scans">Vous n\'avez encore rien scanné !</string>
+    <string name="click_to_start">Cliquez sur le bouton ci-dessous pour commencer.</string>
+    <string name="scan_a_product">SCANNER UN PRODUIT</string>
+    <string name="calories_per_portion">%1$.1f kCal/part</string>
+    <string name="nutriscore">Nutriscore: %1$s</string>
+    <string name="sheet">Fiche</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="table">Tableau</string>
+</resources>

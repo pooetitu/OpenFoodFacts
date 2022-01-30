@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">OpenFoodFacts</string>
+    <string name="barcode">Bar code : %1$s</string>
+    <string name="quantity">Quantity : %1$s</string>
+    <string name="sold_in">Sold in : %1$s</string>
+    <string name="ingredients">Ingredients : %1$s</string>
+    <string name="allergens">Allergens : %1$s</string>
+    <string name="additives">Additives : %1$s</string>
+    <string name="nutrional_benchmark_for_100g">Nutrional benchmark for 100g</string>
+    <string name="high_nutrient_level">High quantity</string>
+    <string name="low_nutrient_level">Low quantity</string>
+    <string name="moderate_nutrient_level">Moderated quantity</string>
+    <string name="amount_of_fat">%1$.3f%2$s of fat</string>
+    <string name="amount_of_saturated_fat">%1$.3f%2$s of saturated fat</string>
+    <string name="amount_of_sugar">%1$.3f%2$s of sugar</string>
+    <string name="amount_of_salt">%1$.3f%2$s of salt</string>
+    <string name="per_100_gram">Per 100g</string>
+    <string name="per_portion">Per portion</string>
+    <string name="energy">Energy</string>
+    <string name="fat">Fat</string>
+    <string name="saturated_fat">Saturated fat</string>
+    <string name="carbohydrate">Carbohydrate</string>
+    <string name="sugar">Sugar</string>
+    <string name="fibers">Fibers</string>
+    <string name="proteins">Proteins</string>
+    <string name="salt">Salt</string>
+    <string name="sodium">Sodium</string>
+    <string name="energy_display" translatable="false">%1$.1f %2$s</string>
+    <string name="fat_display" translatable="false">%1$.1f %2$s</string>
+    <string name="saturated_fat_display" translatable="false">%1$.1f %2$s</string>
+    <string name="carbohydrate_display" translatable="false">%1$.1f %2$s</string>
+    <string name="sugar_display" translatable="false">%1$.1f %2$s</string>
+    <string name="fibers_display" translatable="false">%1$.1f %2$s</string>
+    <string name="proteins_display" translatable="false">%1$.1f %2$s</string>
+    <string name="salt_display" translatable="false">%1$.1f %2$s</string>
+    <string name="sodium_display" translatable="false">%1$.1f %2$s</string>
+    <string name="no_scans">You didn\'t scan anything yet !</string>
+    <string name="click_to_start">Click on the button below to start.</string>
+    <string name="scan_a_product">SCAN A PRODUCT</string>
+    <string name="calories_per_portion">%1$.1f kCal/portion</string>
+    <string name="nutriscore">Nutriscore: %1$s</string>
+    <string name="sheet">Sheet</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="table">Table</string>
+</resources>

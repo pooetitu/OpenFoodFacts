@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/product_details_nav_host"
+    app:startDestination="@id/tab_sheet">
+
+    <fragment
+        android:id="@+id/tab_sheet"
+        android:name="com.openfoodfacts.ui.fragments.ProductDetailsSummaryFragment"
+        android:label="ProductDetailsSummaryFragment">
+        <argument
+            android:name="product"
+            app:argType="com.openfoodfacts.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab_nutrition"
+        android:name="com.openfoodfacts.ui.fragments.ProductDetailsNutritionFragment"
+        android:label="ProductDetailsNutritionFragment">
+        <argument
+            android:name="product"
+            app:argType="com.openfoodfacts.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab_table"
+        android:name="com.openfoodfacts.ui.fragments.ProductDetailsNutritionalValuesFragment"
+        android:label="ProductDetailsNutritionalValuesFragment">
+        <argument
+            android:name="product"
+            app:argType="com.openfoodfacts.Product" />
+    </fragment>
+</navigation>

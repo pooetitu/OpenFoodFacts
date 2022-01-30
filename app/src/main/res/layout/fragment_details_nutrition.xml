@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nutrional_benchmark_for_100g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:text="@string/nutrional_benchmark_for_100g"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/fat_nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/nutrient_level"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/nutrional_benchmark_for_100g" />
+
+    <TextView
+        android:id="@+id/fat_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/fat_nutrient_level"
+        app:layout_constraintTop_toBottomOf="@+id/nutrional_benchmark_for_100g" />
+
+    <TextView
+        android:id="@+id/fat_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/fat_amount"
+        app:layout_constraintTop_toBottomOf="@+id/fat_amount" />
+
+
+    <View
+        android:id="@+id/saturated_fat_nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/nutrient_level"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/fat_level" />
+
+    <TextView
+        android:id="@+id/saturated_fat_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/fat_nutrient_level"
+        app:layout_constraintTop_toBottomOf="@+id/fat_level" />
+
+    <TextView
+        android:id="@+id/saturated_fat_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/saturated_fat_amount"
+        app:layout_constraintTop_toBottomOf="@+id/saturated_fat_amount" />
+
+
+    <View
+        android:id="@+id/sugar_nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/nutrient_level"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/saturated_fat_level" />
+
+    <TextView
+        android:id="@+id/sugar_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/fat_nutrient_level"
+        app:layout_constraintTop_toBottomOf="@+id/saturated_fat_level" />
+
+    <TextView
+        android:id="@+id/sugar_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/sugar_amount"
+        app:layout_constraintTop_toBottomOf="@+id/sugar_amount" />
+
+
+    <View
+        android:id="@+id/salt_nutrient_level"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/nutrient_level"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/sugar_level" />
+
+    <TextView
+        android:id="@+id/salt_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/fat_nutrient_level"
+        app:layout_constraintTop_toBottomOf="@+id/sugar_level" />
+
+    <TextView
+        android:id="@+id/salt_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/salt_amount"
+        app:layout_constraintTop_toBottomOf="@+id/salt_amount" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="10dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
